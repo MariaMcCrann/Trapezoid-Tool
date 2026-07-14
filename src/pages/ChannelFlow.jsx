@@ -237,7 +237,7 @@ export default function ChannelFlow() {
               title="CROSS SECTION (schematic)"
               points={points}
               labels={[
-                { text: `Top width: ${fmt(inputs.bottomWidth + 2 * inputs.depth * inputs.sideSlope, 2)} m`, x: (points[0].x + points[3].x) / 2, y: inputs.depth + inputs.depth * 0.18 },
+                { text: `Top width: ${fmt(inputs.bottomWidth + 2 * inputs.depth * inputs.sideSlope, 2)} m`, x: (points[0].x + points[3].x) / 2, y: inputs.depth + inputs.depth * 0.1 },
                 { text: `Bottom width: ${fmt(inputs.bottomWidth, 2)} m`, x: (points[1].x + points[2].x) / 2, y: -inputs.depth * 0.1 },
               ]}
             />
